@@ -1,4 +1,4 @@
-FROM resin/%%RESIN_MACHINE_NAME%%-debian:stretch-20180809
+FROM resin/%%RESIN_MACHINE_NAME%%-debian:buster-20180820
 
 ENV DBUS_SYSTEM_BUS_ADDRESS unix:path=/host/run/dbus/system_bus_socket
 
